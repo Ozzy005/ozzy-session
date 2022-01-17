@@ -1,0 +1,21 @@
+{
+    "name": "ozzy/session",
+    "description": "Um simples gerenciador de sessão php com suporte a tree array",
+    "version": "0.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Arend",
+            "email": "rafinhaarend123@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "Src/"
+        }
+    }
+}
