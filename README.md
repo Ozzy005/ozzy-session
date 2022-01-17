@@ -55,6 +55,8 @@ Salvando alguma coisa na sessão com o método `put` (esse método substitui qua
 
 Session::put('numero', 1);
 
+var_dump($_SESSION);
+
 /*
 array (size=1)
   'numero' => int 1
@@ -62,6 +64,8 @@ array (size=1)
 
 //também é possível fazer algo assim por causa do tree array
 Session::put('times.devs.1', 'faluno');
+
+var_dump($_SESSION);
 
 /* 
 array (size=2)
